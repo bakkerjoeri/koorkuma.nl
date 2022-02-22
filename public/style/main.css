@@ -1,1 +1,22 @@
+html {
+	background-color: #ffcf5e;
+	font-size: 17px;
+	line-height: 1.4em;
+}
+
+body {
+	max-width: 520px;
+	padding: 20px;
+	margin: 0 auto;
+}
+
+h1, h2 {
+	font-family: sans-serif;
+	line-height: 1.25em;
+}
+
+p {
+	margin-top: 0;
+	margin-bottom: 1.45em;
+}
 

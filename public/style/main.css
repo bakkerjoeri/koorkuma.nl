@@ -1,13 +1,22 @@
 html {
+	margin: 0;
+	padding: 0;
 	background-color: #ffcf5e;
 	font-size: 17px;
 	line-height: 1.4em;
 }
 
 body {
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 20px;
+}
+
+body > * {
 	max-width: 520px;
-	padding: 20px;
-	margin: 0 auto;
 }
 
 h1, h2 {
@@ -20,3 +29,9 @@ p {
 	margin-bottom: 1.45em;
 }
 
+.portrait {
+	display: block;
+	width: 100%;
+	max-width: none;
+	margin-top: 3em;
+}

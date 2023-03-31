@@ -1,3 +1,6 @@
+* {
+	box-sizing: border-box;
+}
 html {
 	margin: 0;
 	padding: 0;
@@ -16,9 +19,9 @@ body {
 }
 
 body > * {
+	width: 100%;
 	max-width: 520px;
-	margin-left: 20px;
-	margin-right: 20px;
+	padding: 0 20px;
 }
 
 h1, h2 {
@@ -37,4 +40,5 @@ p {
 	width: 100%;
 	max-width: none;
 	margin-top: 3em;
+	padding: 0px;
 }
